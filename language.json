@@ -1,0 +1,36 @@
+{
+  "languageId": "javascript",
+  "extensions": [
+    "js",
+    "jsx"
+  ],
+  "lspLanguageIdByExt": {
+    "jsx": "javascriptreact"
+  },
+  "serverId": "typescript",
+  "server": {
+    "strategy": "node-module",
+    "module": "typescript-language-server",
+    "args": [
+      "--stdio"
+    ]
+  },
+  "rootMarker": "package.json",
+  "initializationOptions": {
+    "preferences": {
+      "includeCompletionsForModuleExports": true,
+      "includeCompletionsWithSnippetText": true,
+      "importModuleSpecifierPreference": "shortest"
+    }
+  },
+  "extraTokenColors": [
+    {
+      "token": "interface",
+      "foreground": "4EC9B0"
+    },
+    {
+      "token": "member",
+      "foreground": "DCDCAA"
+    }
+  ]
+}
