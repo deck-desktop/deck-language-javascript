@@ -1,5 +1,6 @@
 {
   "languageId": "javascript",
+  "version": "1.0.0",
   "extensions": [
     "js",
     "jsx"
