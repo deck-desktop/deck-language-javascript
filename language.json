@@ -1,6 +1,8 @@
 {
   "languageId": "javascript",
-  "version": "1.1.0",
+  "version": "1.1.1",
+  "icon": "Braces",
+  "color": "#f1e05a",
   "extensions": [
     "js",
     "jsx"
